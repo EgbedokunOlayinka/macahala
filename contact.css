@@ -1,0 +1,208 @@
+/* RESETS */
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+a { 
+    text-decoration: none; 
+    cursor: pointer;
+    color: white;
+}
+
+img {
+     height: auto; 
+     width: 100% 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER STYLES */
+header {
+    background: url('/barchitecture-bokeh-building-business-3815411.jpg');
+    height: 30vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+    padding: 0em 12em;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.heading {
+    display: flex;
+    align-content: center;
+}
+
+.ellipse {
+    background: #F3684A;
+    width: 17px;
+    height: 17px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: .3em;
+    margin-left: .2em;
+}
+
+.main-head {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.top-nav {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.top-nav p {
+    /* border: 1px solid blue; */
+    margin-left: 5em;
+}
+
+.sub-head {
+    font-weight: 500;
+}
+
+.sub-head h2 {
+    font-size: 200%;
+}
+
+.sub-head p {
+    color: #F3684A;
+    letter-spacing: .05em;
+    margin-top: .5em;
+}
+
+
+/* MAP SECTION */
+#map {
+    padding: 3.5em 12em;
+    /* height: 40vh; */
+}
+
+
+/* CONTACT SECTION */
+#contact {
+    padding: 0em 12em;
+}
+
+#contact h4 {
+    color: #F3684A;
+    letter-spacing: .05em;
+}
+
+#contact h2 {
+    /* border: 1px solid black; */
+    margin: .2em 0 1em 0;
+    display: inline-block;
+    width: 20%;
+    font-weight: 500;
+    color: #2D2A2A;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 248px;
+    width: 100%;
+    grid-gap: 1.5em;
+    /* border: 1px solid black; */
+}
+
+#contact textarea {
+    background: #FBF5F5;
+    border: 1px solid transparent;
+    outline: none;
+    color: #B8B3B3;
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    resize: none;
+}
+
+.inputs-div {
+    display: grid;
+    grid-gap: 1.5em;
+}
+
+#contact input {
+    width: 100%;
+    padding: 1em;
+    background: #FBF5F5;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    outline: transparent;
+    color: #B8B3B3;
+    font-size: 80%;
+}
+
+.btn {
+    background: #F3684A;
+    color: white;
+    border-radius: 0;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 1em;
+}
+
+.btn p {
+    display: inline;
+}
+
+
+/* CONTACT DETAILS SECTION */
+#contact-details {
+    margin-top: 6em;
+    margin-bottom: 3em;
+    border-bottom: 0.5px solid #CAC7C7;
+    padding-bottom: 4em;
+    margin: 6em 12em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.detail {
+    /* border: 1px solid black; */
+    /* flex: 1 1 0px; */
+    /* width: 90%; */
+}
+
+.detail i {
+    background: #F3684A;
+    color: white;
+    padding: .5em .6em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+#msg-icon {
+    padding: .5em;
+}
+
+.detail-text {
+    margin-top: 1em;
+}
+
+.detail-text h3 {
+    color: #2D2A2A;
+    margin-bottom: .3em;
+}
+
+.detail-text p {
+    color: #4A4A4A;
+    line-height: 1.5;
+}
+
+
+
